@@ -1,0 +1,36 @@
+﻿subject,predicate,object
+latitude,a,Brick: location
+latitude,latitude,building:Building11
+longitude,a,Brick: location
+longitude,longitude,building:Building11
+virtualSite,a,Brick:Site
+virtualSite,bf_hasLocation,building:Building11
+documentation,a,Brick:LogicalDesign
+documentation,bf_hasDesign,building:Building11
+Model,a,Brick:LogicalDesign
+Model,bf_hasDesign,building:Building11
+BuiltArea,a,Brick:Area
+BuiltArea,bf_entityProperty,building:Building11
+Floor1,a,Brick:level
+Floor1,bf_hasLocation,building:Building11
+Zone111,a,Brick:Zone
+Zone111,bf_hasLocation,building:Building11
+HVAC11,a,Brick:HVAC_System
+HVAC11,bf_hasLocation,building:Building11
+Org11,a,Brick:Organization Name
+Org11,bf_entityProperty,building:Architect11
+Experience,a,Brick:Total experience
+Experience,bf_entityProperty,building:Architect11
+Name,a,Brick:Architect Name
+Name,bf_entityProperty,building:Architect11
+Email,a,Brick:Architect Email Address
+Email,bf_entityProperty,building:Architect11
+Architect11,a,Brick:Designed By
+Architect11,bf_designedBy,building:Building11
+Address,a,Brick:Building Address
+Address,bf_hasAddress,building:Building11
+yearBuilt,a,Brick:EntityProperty
+yearBuilt,bf_YearBuiltShape,building:Building11
+numberOfFloors,bf_hasLocation,building:Building11
+ZipCode,bf_hasLocation,building:Building11
+FloorArea,bf_entityProperty,building:Building11

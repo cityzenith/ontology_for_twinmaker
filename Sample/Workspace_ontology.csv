@@ -1,0 +1,85 @@
+﻿subject,predicate,object
+Building 1,a,Brick: Building
+Building 1,bf_hasLocation,rec: Workspace0
+Building 2,a,Brick: Building
+Building 2,bf_hasLocation,rec: WorkSpace0
+Workspace0,a,Brick: WorkspaceName
+Workspace0,bf_isLocationOf,rec: Workspace 1
+Workspace0,a,Brick: WorkspaceName
+Workspace0,bf_isLocationOf,rec: Workspace 2
+Workspace0,a,Brick: WorkspaceName
+Workspace0,bf_isLocationOf,rec: Workspace 3
+Building 11,a,Brick: building Name
+Building 11,bf_hasLocation,rec: Workspace 1
+Location,a,Brick: location
+Location,bf_hasLocation,rec: Building 11
+mm-dd-yyy tt:ss,a,Brick: timestamp
+mm-dd-yyy tt:ss,timeseries,rec: Building 11
+neighborhood asset,a,Brick: neighborhood asset
+neighborhood asset,bf_hasLocation,rec: Building 11
+Distance XYZ,a,Brick: Contextual data distance
+Distance XYZ,isMeasuredBy,rec: Building 11
+Shadow XYZ,a,Brick: Contextual data shadow
+Shadow XYZ,isMeasuredBy,rec: Building 11
+safety,a,Brick: safety asset
+safety,bf_hasLocation,rec: neighborhood asset
+Medical,a,Brick: Medical facility
+Medical,bf_hasLocation,rec: neighborhood asset
+Education,a,Brick: Education Facility
+Education,bf_hasLocation,rec: neighborhood asset
+Environment,a,Brick: Environment Facility
+Environment,bf_hasLocation,rec: neighborhood asset
+Local economy,a,Brick: local economy facility
+Local economy,bf_hasLocation,rec: neighborhood asset
+Transportation,a,Brick: Transportation facility
+Transportation,bf_hasLocation,rec: neighborhood asset
+Fire Station,a,Brick: Fire station name
+Fire Station,bf_hasLocation,rec: Safety
+Police Station,a,Brick: Police station name
+Police Station,bf_hasLocation,rec: Safety
+Fire Hydrant,a,Brick: Fire hydrant name
+Fire Hydrant,bf_hasLocation,rec: Safety
+Colleges,a,Brick: Colleges name
+Colleges,bf_hasLocation,rec: Education
+School,a,Brick: School name
+School,bf_hasLocation,rec: Education
+University,a,Brick: University name
+University,bf_hasLocation,rec: Education
+Library,a,Brick: Library name
+Library,bf_hasLocation,rec: Education
+Hospitals,a,Brick: Hospital name
+Hospitals,bf_hasLocation,rec: Medical
+Clinic,a,Brick: Hospital name
+Clinic,bf_hasLocation,rec: Medical
+Pharmacist,a,Brick: Pharmacist name
+Pharmacist,bf_hasLocation,rec: Medical
+Park,a,Brick: Park name
+Park,bf_hasLocation,rec: Environment
+Open space,a,Brick: Open Space name
+Open space,bf_hasLocation,rec: Environment
+Picnic Spot,a,Brick: Picnic Spot name
+Picnic Spot,bf_hasLocation,rec: Environment
+Playground,a,Brick: Playground name
+Playground,bf_hasLocation,rec: Environment
+Bank,a,Brick: Bank name
+Bank,bf_hasLocation,rec: Local economy
+Post office,a,Brick: Post office name
+Post office,bf_hasLocation,rec: Local economy
+Shops,a,Brick: Shops name
+Shops,bf_hasLocation,rec: Local economy
+Merchants,a,Brick: Merchants
+Merchants,bf_hasLocation,rec: Local economy
+Bus Stops,a,Brick: Bus Stops
+Bus Stops,bf_hasLocation,rec: Transportation
+Parking,a,Brick: Parking
+Parking,bf_hasLocation,rec: Transportation
+Railway Station,a,Brick: Railway Station
+Railway Station,bf_hasLocation,rec: Transportation
+Metro Station,a,Brick: Metro Station
+Metro Station,bf_hasLocation,rec: Transportation
+Tramp Station,a,Brick: Tramp Station
+Tramp Station,bf_hasLocation,rec: Transportation
+Building 21,a,Brick: Building Name
+Building 21,bf_hasLocation,rec: Workspace 2
+Building 22,a,Brick: Building Name
+Building 22,bf_hasLocation,rec: Workspace 3
