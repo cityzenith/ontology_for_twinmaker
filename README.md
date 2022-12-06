@@ -58,8 +58,8 @@ Graph Location: https://lucid.app/lucidchart/d34880d2-2ed8-473e-bd19-793b62066b6
 |	          |         rec:level                  |
 |	          |         rec:Room                   |
 |	          |         brick:Temperature_Sensor   |
-|	          |         brick:Motion_Sensor        |
-|	          |         brick:Illuminance_Sensor   |
+|	          |         brick:Temperature_Setpoint   |
+|	          |            |
 | rec_hasPart	  |         Floor numbers              |
 |	          |         Room Numbers	       |
 | brick_hasPoint  |         Sensor location            |
