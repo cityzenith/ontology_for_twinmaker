@@ -25,7 +25,7 @@ it has building metadata.
 
 see the below table for the reference:
 
-|  Component_type   |       Entities      |
+|  Relationship  |       Entities      |
 |  :-----------:    |     :----------:    |
 | bf_hasLocation    |	    virtualSite   |
 |	            |       Floor1        |
@@ -52,7 +52,7 @@ see the below table for the reference:
 
 Graph Location: https://lucid.app/lucidchart/d34880d2-2ed8-473e-bd19-793b62066b6d/edit?page=0_0&invitationId=inv_ac226f4d-5251-446d-a87c-b8bea0f0faaf#
 
-| Component	  |         Entities                   |
+| Relationship	  |         Entities                   |
 | :----------:    |        :-----------:               |
 | rdf_Type	  |         rec:Building               |
 |	          |         rec:level                  |
@@ -70,7 +70,7 @@ Graph Location: https://lucid.app/lucidchart/d34880d2-2ed8-473e-bd19-793b62066b6
 
 Graph location: https://lucid.app/lucidchart/80a44139-5d52-4625-9b04-fd8acc5d3c27/edit?beaconFlowId=71E8A65DC25AC6E2&invitationId=inv_46dca2eb-7ba9-4e11-b8dc-e632fbd2492b&page=0_0#
 
-|  Component	  |         Entities       |
+|  Relationship	  |         Entities       |
 | :---------:     |      :-----------:     |
 |  rdf_Type	  |        rec:Building    |
 |	          |        rec:level       |
@@ -83,7 +83,7 @@ Graph location: https://lucid.app/lucidchart/80a44139-5d52-4625-9b04-fd8acc5d3c2
 
 Graph location: https://lucid.app/lucidchart/c8ff8c59-5153-47c5-8e07-e4285f8b0611/edit?beaconFlowId=10ACD616B69157E3&invitationId=inv_7553feda-f3c8-4472-b7d6-89452f11f826&page=0_0#
 
-| Component	      |        Entities  |
+| Relationship	      |        Entities  |
   :-------------:     |   :---------------:
 | hasLocation         |        WorldMap  |
 |	              |        Country   |
@@ -112,7 +112,7 @@ Graph location: https://lucid.app/lucidchart/c8ff8c59-5153-47c5-8e07-e4285f8b061
 5) Project ontology:
 Graph location: https://lucid.app/lucidchart/1c33a06f-de1e-4b4e-b182-0577e00c4a4e/edit?beaconFlowId=1191006138CDC38E&invitationId=inv_a35e4061-89ac-4346-a3cd-0406e2fa1a43&page=0_0#
 
-|  Component	     |     Entities                  |
+|  Relationship	     |     Entities                  |
 | :---------:        |    :-----------:              |
 | bf_hasLocation     |    Workspace main(0)          |
 |	             |    Location                   |
