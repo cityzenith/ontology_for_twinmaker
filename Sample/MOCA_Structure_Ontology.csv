@@ -1,0 +1,27 @@
+﻿subject,predicate,object,note
+MOCA,isA,TwinUp: Building,TwinUp : Building is Entity Type
+MOCA,hasDocumentation,Document1,Document1 is an ID name
+Document1,isA,TwinUp: Document,TwinUp: Document is Component Type; 
+Document1,hasValue,URI - https://www.moca.org/visit/grand-ave,URI - Property
+3DModel 1,isA,TwinUp: 3DGLTFModel,TwinUp: 3DGLTFModel is Component Type
+MOCA,has3DGeometryModel,3DModel 1,
+3DModel 1,hasValue,URI - https://3dwarehouse.sketchup.com/model/abbcdf45b8e8f656b83fde6b6841c805/The-Museum-of-Contemporary-Art-Los-AngelesMOCA,URI - Property
+Floor1,isA,TwinUp: Floor,TwinUp: Floor is Entity Type
+MOCA,hasChild,Floor1,
+Floor2,isA,TwinUp: Floor,TwinUp: Floor is Entity Type
+MOCA,hasChild,Floor2,
+Floor3,isA,TwinUp: Floor,TwinUp: Floor is Entity Type
+MOCA,hasChild,Floor3,
+MOCA,hasLocation,Location 1,
+Location 1,isA,TwinUp: GeoLocation,TwinUp: GeoLocation -Component Type
+Location 1,hasValue,"34.0532 N , 118.2506 W","34.0532 N , 118.2506 W - Lat Long Value Pair - Prooperty"
+Window 1,isA,TwinUp: Window,TwinUp: Window is a Entity Type
+Floor1,hasPart,Window 1,
+Floor1,hasArea,FloorArea1,
+FloorArea1,isA,TwinUp: Area,TwinUp: Area - Compenent Type
+FloorArea 1,hasValue,1265.536,1265.536 - Property
+Floor1,hasGeometry,2DGeometry1,
+2DGeometry1,isA,TwinUp: 2DGeometry,TwinUp: 2DGeometry - Component Type
+ 2DGeometry1,hasValue,"{(4,8), (4,7), (4,1)..)",XY - Coordinate pair list
+Room1,isA,TwinUp: Room,TwinUp: Room - EntityType
+Floor1,hasChild,Room1,
